@@ -5,7 +5,7 @@ import jwt from "jsonwebtoken";
 import nodemailer from "nodemailer";
 import rn from "random-number";
 import { auth } from "../middlewares/auth.js";
-const clienturl = "https://rococo-kulfi-f09a3a.netlify.app"
+const clienturl = "http://localhost:3000"
 
 const options = {
     min: 1000,
